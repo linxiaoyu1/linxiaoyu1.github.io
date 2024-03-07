@@ -65,7 +65,7 @@ pagination:
 <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
 {% for post in featured_posts %}
 <div class="card-item col">
-<a href="{{ post.url | relative_url }}">
+<!-- <a href="{{ post.url | relative_url }}"> -->
 <div class="card hoverable">
 <div class="row g-0">
 <div class="col-md-12">
@@ -129,7 +129,7 @@ pagination:
 {% endif %}
         <h3>
         {% if post.redirect == blank %}
-          <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <!-- <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a> -->
         {% elsif post.redirect contains '://' %}
           <a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
           <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
@@ -173,7 +173,7 @@ pagination:
 </div>
 
   <div class="col-sm-3">
-    <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
+    <!-- <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image"> -->
   </div>
 </div>
 {% endif %}
