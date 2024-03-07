@@ -9,15 +9,17 @@ layout: default
           <span class="title">
             <span class="font-weight-bold">
               {{ site.first_name }} {{ site.middle_name }}
+              {{ site.last_name }}
             </span>
-            {{ site.last_name }}
           </span>
         {% else %}
           {{ site.title }}
         {% endif %}
       </h1>
+      <span class="font-weight-bold">
       <p class="subtitle">{{ page.subtitle }}</p>
       <p class="declaration">{{ page.declaration }}</p>
+      </span>
     </div>
   </header>
 
