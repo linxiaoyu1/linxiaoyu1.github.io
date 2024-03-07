@@ -85,9 +85,9 @@ layout: default
                   {% include resume/basics.liquid %}
                 {% when 'education' %}
                   {% include resume/education.liquid %}
-                {% when 'work' %}
+                {% when 'industrial experiences' %}
                   {% include resume/work.liquid %}
-                {% when 'volunteer' %}
+                {% when 'formations' %}
                   {% include resume/volunteer.liquid %}
                 {% when 'projects' %}
                   {% include resume/projects.liquid %}
@@ -105,6 +105,8 @@ layout: default
                   {% include resume/certificates.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
+                {% when 'academic services' %}
+                  {% include resume/academic_services.liquid %}
                 {% else %}
 
               {% endcase %}

@@ -26,7 +26,7 @@
                   <td>
                     <p class="location">
                       <i class="fa-solid fa-location-dot iconlocation"></i>
-                      {{ content.location }}
+                      <a href="{{ content.urllocation }}">{{ content.location }}</a>
                     </p>
                   </td>
                 </tr>
@@ -36,16 +36,39 @@
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.studyType }}</a>
+            {{ content.studyType }}
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+            {{"Institution: "}}<a href="{{ content.urldepartment }}">{{ content.department }}</a>
+            <a href="{{ content.urlinstitution }}">{{ content.institution }}</a>
+          </h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: bold">{{ content.detail }}</h6>
+          {% if content.supervisor %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {{"Supervisor: "}}
+              {% for item in content.supervisor %}
+                <a href="{{ item[1] }}">{{ item[0], }}
+              {% endfor %}              
+            </h6>
+          {% endif %}
+          {% if content.details %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {{content.details}}
+            </h6>
+          {% endif %}
+           {% if content.score %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {{content.score}}
+            </h6>
+          {% endif %}         
           <ul class="items">
-            {% for item in content.courses %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
-            {% endfor %}
+            {% if content.courses %}
+              {% for item in content.courses %}
+                <li>
+                  <span class="item">{{ item }}</span>
+                </li>
+              {% endfor %}
+            {% endif %}
           </ul>
         </div>
       </div>
