@@ -23,7 +23,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! Welcome to my webpage. My name is Xiaoyu Lin, and it writes 林小钰 in Chinese. 
+Hi， Welcome to my webpage！ My name is Xiaoyu Lin, and it writes 林小钰 in Chinese. 
 
 I am currently a final year PhD student at the [RobotLearn Team](https://team.inria.fr/robotlearn/) at [Inria Grenoble-Rhône-Alpes](https://www.inria.fr/en/inria-centre-university-grenoble-alpes) in France. My current research direction generally involves applying deep probabilistic generative models for solving intricate scientific and engineering problems under un/semi-/weakly supervised configurations. Particularly , I apply a specific type of deep latent variable model designed for sequential data, reffered to as [dynamical variational auto-encoders (DVAEs)](https://arxiv.org/abs/2008.12595), to tackle various audio and visual tasks, including multi-object tracking, single-channel audio source separation, and speech enhancement.
 
