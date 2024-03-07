@@ -1,0 +1,1 @@
+function parallax_height(){var t=$(this).scrollTop(),a=($(".about-section").offset().top,$(".about-header-section").outerHeight());$(".about-section").css({"margin-top":a}),$(".about-header").css({height:a-t})}parallax_height(),$(window).scroll(function(){parallax_height()}),$(window).resize(function(){parallax_height()});
