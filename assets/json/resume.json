@@ -106,6 +106,7 @@
       "position": "Machine Learning Summer School",
       "url": "https://groups.oist.jp/mlss",
       "location": "Okinawa, Japan",
+      "urllocation":"https://www.google.com/maps/d/viewer?mid=1UBMg18cdyN2P-ZviA0qfmdx5QhE&hl=en&ll=25.401847922863563%2C125.80123899999998&z=8",
       "startDate": "2024-03-04",
       "endDate": "2024-03-15",
       "summary": "Lectures on various topics which are at the core of modern Machine Learning, from fundamentals to state-of-the-art practice."
