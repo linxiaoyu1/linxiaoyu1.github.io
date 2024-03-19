@@ -29,7 +29,7 @@
       "studyType": "M.S. in System Engineering",
       "startDate": "2018-09",
       "endDate": "2020-06",
-      "score": "GPA:3.75/4.00",
+      "score": "GPA: 3.75/4.00",
       "supervisor":[["Lei Yu.", "https://ecpkn.buaa.edu.cn/info/1968/4611.htm"]]
     },
     {
@@ -40,7 +40,7 @@
       "studyType": "Engineer's Degree",
       "startDate": "2016-09",
       "endDate": "2018-06",
-      "score": "GPA:3.60/4.00"
+      "score": "GPA: 3.60/4.00"
     },
     {
       "department": "École Centrale de Pékin,", 
@@ -52,7 +52,7 @@
       "studyType": "B.S. in Information and Computer Science",
       "startDate": "2013-09",
       "endDate": "2017-06",
-      "score": "GPA:3.90/4.00"
+      "score": "GPA: 3.90/4.00"
     } 
   ],
   "industrial experiences": [
@@ -97,6 +97,7 @@
     {
       "position": "PRAIRIE / MIAI Aritificial Intelligence Summer School",
       "url": "https://prairie-institute.fr/paiss-summer-school/",
+      "location": "Online",
       "startDate": "2021-07-05",
       "endDate": "2021-07-09",
       "summary": "Lectures conducted by renowned experts in different areas of artificial intelligence, including computer vision, machine learning, natural language processing, robotics, and healthcare."
@@ -104,6 +105,7 @@
     {
       "position": "Machine Learning Summer School",
       "url": "https://groups.oist.jp/mlss",
+      "location": "Okinawa, Japan",
       "startDate": "2024-03-04",
       "endDate": "2024-03-15",
       "summary": "Lectures on various topics which are at the core of modern Machine Learning, from fundamentals to state-of-the-art practice."
