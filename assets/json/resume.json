@@ -4,6 +4,21 @@
     "email": ["xiaoyu.lin@inria.fr,", "clementinexiaoyu@gmail.com"],
     "phone": "+33 (0)6 67 03 33 46"
   },
+  "professional experiences": [
+    {
+      "department": "RobotLearn Team,", 
+      "institution": "Inria Grenoble-Rhône-Alpes.",
+      "location": "Grenoble, France",
+      "urldepartment": "https://team.inria.fr/robotlearn/",
+      "urlinstitution": "https://www.inria.fr/en/inria-centre-university-grenoble-alpes",
+      "urllocation":"https://www.google.com/maps/place/Centre+Inria+de+l'Universit%C3%A9+Grenoble+Alpes/@45.2178897,5.8047941,17z/data=!3m1!4b1!4m6!3m5!1s0x478a5f575929f5a5:0x60b3d32a7c64c8f0!8m2!3d45.217886!4d5.807369!16s%2Fg%2F1hhwktx5q?entry=ttu",
+      "details": "Subject: Deep Information Geometry.",
+      "workTitle": "Postdoc researcher",
+      "startDate": "2024-08",
+      "endDate": "present",
+      "supervisor":[["Dr. Xavier Alameda-Pineda,", "https://xavirema.eu/"], ["Dr. Pedro L. C. Rodrigues.", "https://plcrodrigues.github.io/"]] 
+    }
+  ],
   "education": [
     {
       "department": "RobotLearn Team,", 
@@ -12,11 +27,11 @@
       "urldepartment": "https://team.inria.fr/robotlearn/",
       "urlinstitution": "https://www.inria.fr/en/inria-centre-university-grenoble-alpes",
       "urllocation":"https://www.google.com/maps/place/Centre+Inria+de+l'Universit%C3%A9+Grenoble+Alpes/@45.2178897,5.8047941,17z/data=!3m1!4b1!4m6!3m5!1s0x478a5f575929f5a5:0x60b3d32a7c64c8f0!8m2!3d45.217886!4d5.807369!16s%2Fg%2F1hhwktx5q?entry=ttu",
-      "details": "Subject: Deep Probabilistic Generative Model and the Applications to Audio-visual Data.",
-      "studyType": "PhD candidate",
+      "details": "Thesis: Deep latent-variable generative models for multimedia processing.",
+      "studyType": "PhD",
       "startDate": "2020-11",
       "endDate": "2024-07",
-      "supervisor":[["Xavier Alameda-Pineda,", "https://xavirema.eu/"], ["Laurent Girin.", "https://www.gipsa-lab.grenoble-inp.fr/user/laurent.girin"]] 
+      "supervisor":[["Dr. Xavier Alameda-Pineda,", "https://xavirema.eu/"], ["Prof. Laurent Girin.", "https://www.gipsa-lab.grenoble-inp.fr/user/laurent.girin"]] 
     },
     {
       "department": "École Centrale de Pékin,", 
@@ -30,7 +45,7 @@
       "startDate": "2018-09",
       "endDate": "2020-06",
       "score": "GPA: 3.75/4.00",
-      "supervisor":[["Lei Yu.", "https://ecpkn.buaa.edu.cn/info/1968/4611.htm"]]
+      "supervisor":[["Prof. Lei Yu.", "https://ecpkn.buaa.edu.cn/info/1968/4611.htm"]]
     },
     {
       "institution": "CentraleSupélec (Cursus Centrale)",
