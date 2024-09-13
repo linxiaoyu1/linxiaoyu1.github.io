@@ -34,7 +34,8 @@ My research interests span a broad spectrum of both theoretical and application-
 
 <!-- 2024.09 -->
 
-I am currently a postdoc researcher at the [RobotLearn Team](https://team.inria.fr/robotlearn/) at [Inria Grenoble-Rhône-Alpes](https://www.inria.fr/en/inria-centre-university-grenoble-alpes) in France. And I will be joining [Prof. Peng Cui](https://pengcui.thumedialab.com/)’s team in the [Department of Computer Science & Technology at Tsinghua University](https://www.cs.tsinghua.edu.cn/csen/) as a postdoc researcher at the beginning of 2025.
+I am currently a postdoc researcher at the [RobotLearn Team](https://team.inria.fr/robotlearn/) at [Inria Grenoble-Rhône-Alpes](https://www.inria.fr/en/inria-centre-university-grenoble-alpes) in France. 
+<!-- And I will be joining [Prof. Peng Cui](https://pengcui.thumedialab.com/)’s team in the [Department of Computer Science & Technology at Tsinghua University](https://www.cs.tsinghua.edu.cn/csen/) as a postdoc researcher at the beginning of 2025. -->
 
 My research interests span a broad spectrum of both theoretical and application-oriented machine learning problems. With a focus on advancing both the fundamental understanding and practical applications of machine learning, my long-term research goal is to develop robust and reliable AI systems that not only excel in performance, but also bring positive impact on societal progress and the well-being of individuals. Currently, my research interests primarily focus on understanding the out-of-distribution generalization problem of machine learning models and enhancing the robustness of AI systems in varying environments. One promising research direction that particularly interests me is the integration of causality into current machine learning frameworks.
 
