@@ -1,22 +1,10 @@
 {
   "basics": {
     "name": "Xiaoyu Lin (林小钰)",
-    "email": ["clementinexiaoyu@gmail.com"]
+    "email": ["xiaoyu.lin@inria.fr,", "clementinexiaoyu@gmail.com"],
+    "phone": "+33 (0)6 67 03 33 46"
   },
   "professional experiences": [
-    {
-      "department": "Department of Computer Science and Technology,", 
-      "institution": "Tsinghua University.",
-      "location": "Beijing, China",
-      "urldepartment": "https://www.cs.tsinghua.edu.cn/csen/",
-      "urlinstitution": "https://www.tsinghua.edu.cn/en/",
-      "urllocation":"https://www.google.com/maps/place/Universit%C3%A9+Tsinghua/@39.9996674,116.323869,17z/data=!4m6!3m5!1s0x35f0541fa61e3c8f:0xd95a50fee0e0e2c9!8m2!3d39.9996674!4d116.3264439!16zL20vMGprc20?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
-      "details": "",
-      "workTitle": "Postdoctoral researcher",
-      "startDate": "2025-02",
-      "endDate": "present",
-      "supervisor":[["Prof. Peng Cui.", "https://pengcui.thumedialab.com/"]] 
-    },
     {
       "department": "RobotLearn Team,", 
       "institution": "Inria Grenoble-Rhône-Alpes.",
@@ -24,11 +12,11 @@
       "urldepartment": "https://team.inria.fr/robotlearn/",
       "urlinstitution": "https://www.inria.fr/en/inria-centre-university-grenoble-alpes",
       "urllocation":"https://www.google.com/maps/place/Centre+Inria+de+l'Universit%C3%A9+Grenoble+Alpes/@45.2178897,5.8047941,17z/data=!3m1!4b1!4m6!3m5!1s0x478a5f575929f5a5:0x60b3d32a7c64c8f0!8m2!3d45.217886!4d5.807369!16s%2Fg%2F1hhwktx5q?entry=ttu",
-      "details": "",
-      "workTitle": "Postdoctoral researcher",
+      "details": "Subject: Deep Information Geometry.",
+      "workTitle": "Postdoc researcher",
       "startDate": "2024-08",
-      "endDate": "2025-01",
-      "supervisor":[["Dr. Xavier Alameda-Pineda.", "https://xavirema.eu/"]] 
+      "endDate": "present",
+      "supervisor":[["Dr. Xavier Alameda-Pineda,", "https://xavirema.eu/"], ["Dr. Pedro L. C. Rodrigues.", "https://plcrodrigues.github.io/"]] 
     }
   ],
   "education": [
@@ -117,7 +105,7 @@
       "urllocation":"https://www.google.com/maps/d/viewer?mid=1-vOa-c7T4DIoTrm8D-btkLcpmZw&hl=en_US&ll=39.90293800000003%2C116.42602399999997&z=17",
       "startDate": "2017-07",
       "endDate": "2017-09",
-      "summary": "Software algorithm analysis, fluid mechanic problem analysis using Bernoulli equation."
+      "summary": "Software algorithm analysis, fluid mechanic problem analysis using Bernoulli Equation."
     }
   ],
   "formations": [
@@ -141,8 +129,8 @@
   ],
   "academic services":
     {
-      "Conference review": ["ACM MM (2021-2024),", "ICASSP (2024-2025),", "ICRA 2024"],
-      "Journal review": "TMLR"
+      "Conference review": ["ACM MM (2021-2024),", "ICASSP 2024,", "ICRA 2024"],
+      "Journal review": ""
     },
   "languages": [
     {
@@ -158,11 +146,6 @@
     {
       "language": "French",
       "fluency": "Full professional proficiency",
-      "icon": ""
-    },
-    {
-      "language": "German",
-      "fluency": "Beginner",
       "icon": ""
     }
   ]
